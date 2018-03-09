@@ -11,7 +11,7 @@ int main() {
 	int input;
 	
 	while (cin >> input) {
-		if (input != -999) {
+		if (input != -999) { //-999 to terminate the input process 
 			nums.push_back(input);
 		} else {
 			cin >> target;
