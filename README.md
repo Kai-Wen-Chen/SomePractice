@@ -1,7 +1,7 @@
 # SomePractice
 Here is some of my programming practice
 
-\n
+---------------------------------------------------------------------------------------------------
 
 TwoNumbers:
 
@@ -13,13 +13,13 @@ among the input. The answer should be the places of them in the vector and we as
 
 a pair of them could result in the answer. Ex: [1, 2, 3, 4], 6 => [1, 3]
 
-\n
+---------------------------------------------------------------------------------------------------
 
 ReverseInteger:
 
 Given a 32-bit integer, then print the reverse of it. If overflow, print 0 instead.
 
-\n
+---------------------------------------------------------------------------------------------------
 
 BinartCarryBits:
 
