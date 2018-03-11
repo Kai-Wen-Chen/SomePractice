@@ -32,3 +32,11 @@ N = 1 => N = 01, N+1 = 10 => #carry bits = 1
 N = 7 => N = 0111, N+1 = 1000 => #carry bits = 3
 
 N = 4 => N = 100, N+1 = 101 => #carrt bits = 0
+
+---------------------------------------------------------------------------------------------------
+
+SumOfPerfectSquare:
+
+Given a, b. Find the sum of all perfect square numbers between a and b.
+
+ex: (a, b) = (1, 10) => sum = 1 + 4 + 9 = 14
