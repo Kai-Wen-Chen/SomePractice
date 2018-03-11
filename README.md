@@ -46,3 +46,9 @@ ex: (a, b) = (1, 10) => sum = 1 + 4 + 9 = 14
 SpaceDivision:
 
 Determine that how much different space could be divided by n non-parallel and different planes
+
+---------------------------------------------------------------------------------------------------
+
+LongestCommonPrefix:
+
+ex: ["abcde", "abced", "adcbe"] => lcp = "a"; ["abcde", "fghij"] => lcp = ""
