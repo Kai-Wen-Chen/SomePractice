@@ -40,3 +40,9 @@ SumOfPerfectSquare:
 Given a, b. Find the sum of all perfect square numbers between a and b.
 
 ex: (a, b) = (1, 10) => sum = 1 + 4 + 9 = 14
+
+---------------------------------------------------------------------------------------------------
+
+SpaceDivision:
+
+Determine that how much different space could be divided by n non-parallel and different planes
