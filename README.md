@@ -58,3 +58,9 @@ ex: ["abcde", "abced", "adcbe"] => lcp = "a"; ["abcde", "fghij"] => lcp = ""
 RemoveDuplicates:
 
 Given a sorted vector of integers, print it without duplicate integers
+
+---------------------------------------------------------------------------------------------------
+
+RemoveElement:
+
+Given a vector of integers and a target value, print the elements of the vector without target value
