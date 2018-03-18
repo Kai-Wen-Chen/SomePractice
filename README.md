@@ -45,7 +45,7 @@ ex: (a, b) = (1, 10) => sum = 1 + 4 + 9 = 14
 
 SpaceDivision:
 
-Determine that how much different space could be divided by n non-parallel and different planes
+Determine that how much different space could be divided by n non-parallel and different planes.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -57,10 +57,30 @@ ex: ["abcde", "abced", "adcbe"] => lcp = "a"; ["abcde", "fghij"] => lcp = ""
 
 RemoveDuplicates:
 
-Given a sorted vector of integers, print it without duplicate integers
+Given a sorted vector of integers, print it without duplicate integers.
 
 ---------------------------------------------------------------------------------------------------
 
 RemoveElement:
 
-Given a vector of integers and a target value, print the elements of the vector without target value
+Given a vector of integers and a target value, print the elements of the vector without target value.
+
+---------------------------------------------------------------------------------------------------
+
+CountAndSay:
+
+Given a target value n, output a specific string.
+
+The rule is below:
+
+n = 1 => "1"
+
+n = 2 => "11", which is one "1"
+
+n = 3 => "21", which is two "1"
+
+n = 4 => "1211", which is one "2", one "1"
+
+n = 5 => "111221", which is one "1", one "2", two "1"
+
+We count each number occurs in the n-th string, output(say) as the (n+1)-th string. 
