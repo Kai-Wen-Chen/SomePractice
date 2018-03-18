@@ -52,3 +52,9 @@ Determine that how much different space could be divided by n non-parallel and d
 LongestCommonPrefix:
 
 ex: ["abcde", "abced", "adcbe"] => lcp = "a"; ["abcde", "fghij"] => lcp = ""
+
+---------------------------------------------------------------------------------------------------
+
+RemoveDuplicates:
+
+Given a sorted vector of integers, print it without duplicate integers
