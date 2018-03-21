@@ -84,3 +84,13 @@ n = 4 => "1211", which is one "2", one "1"
 n = 5 => "111221", which is one "1", one "2", two "1"
 
 We count each number occurs in the n-th string, output(say) as the (n+1)-th string. 
+
+---------------------------------------------------------------------------------------------------
+
+ClimbStairs:
+
+Given an integer which is the number of steps. We can take one or two steps each time.
+
+Find how many different ways of climbing stairs there are
+
+ex: 1 => (1); 2 => (1, 1), (2); 3 => (1, 1, 1), (1, 2), (2, 1)
