@@ -91,6 +91,6 @@ ClimbStairs:
 
 Given an integer which is the number of steps. We can take one or two steps each time.
 
-Find how many different ways of climbing stairs there are
+Find how many different ways of climbing stairs there are.
 
 ex: 1 => (1); 2 => (1, 1), (2); 3 => (1, 1, 1), (1, 2), (2, 1)
