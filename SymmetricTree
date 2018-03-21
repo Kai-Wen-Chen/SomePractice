@@ -1,0 +1,14 @@
+To judge a tree if it's symmetric, the tree should satisfy the rule below:
+
+root->left == root->right
+
+root->leftSubtree->left == root->rightSubTree->right && root->leftSubtree->right == root->rightSubTree->left
+
+ex:
+
+        1
+      /   \
+    2       2
+  /   \   /   \
+ 3     4  4     3
+  
