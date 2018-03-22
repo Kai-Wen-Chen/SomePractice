@@ -101,6 +101,6 @@ LongestSubstringWithoutDuplicates:
 
 Given a string, find the first longest substring which isn't made of repeating characters.
 
-Output its length;
+Output its length.
 
 ex: abcabcbb => abc(3); pwwke => wke(3); abcdebasjga => cdebasjg(8)
