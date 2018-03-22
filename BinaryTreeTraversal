@@ -1,0 +1,17 @@
+Given a binary tree, return the values of its nodes in bottom-up level order.
+
+ex:
+      1
+     / \
+    2   3
+   / \ / \
+  4  5 6  7
+  
+The answer will be {(6, 7), (4, 5), (2, 3), (1)}
+
+One approach is to reverse the regular traversal.
+
+Reversal:
+Put the current value in a set, then put the value of its left node and right node in another set.
+
+In the end, put all sets in another set, reverse the order of them
