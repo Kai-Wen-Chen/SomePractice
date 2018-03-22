@@ -94,3 +94,13 @@ Given an integer which is the number of steps. We can take one or two steps each
 Find how many different ways of climbing stairs there are.
 
 ex: 1 => (1); 2 => (1, 1), (2); 3 => (1, 1, 1), (1, 2), (2, 1)
+
+---------------------------------------------------------------------------------------------------
+
+LongestSubstringWithoutDuplicates:
+
+Given a string, find the first longest substring which isn't made of repeating characters.
+
+Output its length;
+
+ex: abcabcbb => abc(3); pwwke => wke(3); abcdebasjga => cdebasjg(8)
