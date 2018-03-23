@@ -104,3 +104,21 @@ Given a string, find the first longest substring which isn't made of repeating c
 Output its length.
 
 ex: abcabcbb => abc(3); pwwke => wke(3); abcdebasjga => cdebasjg(8)
+
+---------------------------------------------------------------------------------------------------
+
+LongestValidParenthese:
+
+Given a string only made of '(' and ')', find the length of longest valid parenthese substring
+
+ex: (()) => 4; (()()(() => 4; ((())) => 6
+
+The key to this is to put the indices of the brackets in a stack. If there's a match then pop out
+
+In the end, the longest length will be the length of whole string if the stack is empty because
+
+all brackets are matched. Otherwise, the elements of stack point out the indices of the brackets
+
+which cannot be matched, which means the substrings between these brackets are the valid parenthese.
+
+Thus, It is just compare each length of valid substrings that we can find the longest one. 
