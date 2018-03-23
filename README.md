@@ -121,4 +121,4 @@ all brackets are matched. Otherwise, the elements of stack point out the indices
 
 which cannot be matched, which means the substrings between these brackets are the valid parenthese.
 
-Thus, It is just compare each length of valid substrings that we can find the longest one. 
+Thus, It is just comparing each length of valid substrings that we can find the longest one. 
