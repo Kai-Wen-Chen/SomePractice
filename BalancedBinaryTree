@@ -1,0 +1,42 @@
+A balanced binary tree is a binary tree satisfies below condition:
+
+the depth of two subtrees of every node never differ by more than 1
+
+correct ex:
+      1
+     / \
+    2   2
+       / \
+      3   3
+      
+wrong ex:
+      1
+     / \
+    2   2
+   /     \
+  3       3
+  
+some codes:
+
+bool isBalanced(TreeNode* root) {
+        int depthL = 0, depthR = 0;
+        
+        if (!root) return true;
+        else if (!root->left && !root->right) return true;
+        else {
+            if (root->left) depthL = DPTH(root->left);
+            if (root->right) depthR = DPTH(root->right);
+            if (depthL == -1 || depthR == -1) return false;
+            return (abs(depthL - depthR) > 1) ? false : true;
+        }
+}
+
+int DPTH(TreeNode* root) {
+        int depthL = 0, depthR = 0;
+        
+        if (root->left) depthL = DPTH(root->left);
+        if (root->right) depthR = DPTH(root->right);
+        if (depthL == -1 || depthR == -1) return -1;
+        else if (abs(depthL - depthR) > 1) return -1;
+        else return (depthL >= depthR) ? depthL + 1 : depthR + 1;
+}
