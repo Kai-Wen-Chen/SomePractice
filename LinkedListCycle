@@ -1,0 +1,19 @@
+To determine if a linked list contains a cycle, take two pointers to deal with it.
+
+A pointer moves to next pointer each time while the other pointer moves next two pointers.
+
+Based on the GCD, if the linked list contains a cycle, the two pointers will be same at some point.
+
+code:
+
+if (head == null) return false;
+
+ptr1 = ptr2 = head;
+
+while (ptr1->next && ptr2->next->next){
+  ptr1 = ptr1->next;
+  ptr2 = ptr2->next->next;
+  if (ptr1 == ptr2) return true;
+}
+
+return false;
