@@ -122,3 +122,11 @@ all brackets are matched. Otherwise, the elements of stack point out the indices
 which cannot be matched, which means the substrings between these brackets are the valid parenthese.
 
 Thus, It is just comparing each length of valid substrings that we can find the longest one. 
+
+---------------------------------------------------------------------------------------------------
+
+FactorialTrailingZeroes:
+
+Given a integer n, count the number of trailing zeroes in n!
+
+ex: 3! = 6, #0 = 0; 5! = 120, #0 = 1; 7! = 5040, #0 = 1
