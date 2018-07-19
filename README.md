@@ -11,7 +11,7 @@ Then a target number is given. We should find two numbers that the sum of them i
 
 among the input. The answer should be the places of them in the vector and we assume that there's only
 
-a pair of them could result in the answer. Ex: [1, 2, 3, 4], 6 => [1, 3]
+a pair of them could result in the answer. Ex: [1, 2, 3, 4], 6 => index[1, 3]
 
 ---------------------------------------------------------------------------------------------------
 
